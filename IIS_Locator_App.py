@@ -30,3 +30,8 @@ for i in range(data["info"]["passescount"]):
 
 #Unix time for the start of this pass. You should convert this UTC value to observer's time zone
 
+import datetime
+
+t = datetime.datetime.now()
+print(t)
+
